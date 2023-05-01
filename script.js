@@ -24,7 +24,7 @@ const Questions = [
     id: 1,
     q: "2- O que determina que o valor de retorno da verificação da CONDIÇÃO =SE() seja VERDADEIRA?",
     a: [
-      { text: "Quando não existe a condição FALSA", isCorrect:  false },
+      { text: "Quando o mesmo não existe a condição FALSA", isCorrect:  false },
       { text: "Quando a última condição  é VERDADEIRA", isCorrect: false },
       { text: "Quando o parâmetro de entrada atende a CONDIÇÃO", isCorrect: true },
       { text: "Quando inserimos um valor até o retorno ser VERDADEIRO", isCorrect: false },
