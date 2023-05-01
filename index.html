@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/rodape.css"> -->
+</head> 
+<body>
+    <div class="logo">
+        <img src="css/122.gif" width="100px" alt="">
+    </div>
+    
+    <div id="container">
+        <div id="nav-menu">
+            <div class="bg"></div>
+                <div class="button" tabindex="0">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>
+                <div id="content-menu" tabindex="0">    
+                    <ul>
+                        <li><a href="index.html">Página Inicial</a></li>
+                        <li><a href="eleicoes.html">Eleições 2022</a></li>
+                        <li><a href="podcast.html">Podcasts</a></li>
+                        <li><u><a href="quiz.html">Quiz</a></u> </li>
+                        <li><a href="#">Shorts Films</a></li>
+                        <li><a href="game.html">Game</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <div class="gif">
+        <img src="css/a3.gif" alt="">
+    </div>
+    <div class="painel" id="quiz">
+        <div class="result">
+        </div>  
+        <div class="question-container" id="question">
+            Questões:
+        </div>
+        <div class="option-container">
+            <button class="option" id="op1" >option1</button>
+        
+            <button class="option" id="op2" >option2</button>
+        
+           <button class="option" id="op3">option3</button> 
+        
+            <button class="option" id="op4">option4</button>
+        </div>
+        <div class="navigation">
+            <!-- <button class="evaluate">Conferir   </button> -->
+            <button class="next">Próxima</button>
+        </div>
+    </div>
+
+    <div class="painel" id="resultado">
+        <p class="question-container" id="text">Você acertou 5 questões!</p>
+        <div class="navigation">
+            <!-- <a href="quiz.html"><button class="next">Reiniciar</button></a> -->
+        </div>
+    </div>
+        
+    <script src="script.js"></script>
+    <!--  -->
+        <footer>
+            <div class="maincontent">
+                <div class="left box">
+                    <h2> Sobre nós</h2>
+                    <div class="content">
+                        <p>O Tribunal Superior Eleitoral (TSE), órgão máximo da Justiça Eleitoral, exerce papel fundamental na construção e no exercício da democracia brasileira. Suas principais competências estão fixadas pela Constituição Federal e pelo Código Eleitoral (Lei nº 4.737, de 15.7.1965).</p>
+                    
+                        <div class="social">
+                            <a href="#"><span class="fab fa-facebook-f"></span></a>
+                            <a href="#"><span class="fab fa-twitter"></span></a>
+                            <a href="#"><span class="fab fa-instagram"></span></a>
+                            <a href="#"><span class="fab fa-youtube"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="center box">
+                    <h2>Endereço</h2>
+                    <div class="content">
+                        <div class="place">
+                            <span class="fas fa-map-marker"></span>
+                            <span class="text">
+                                Qd 7, Lt 1/2, Brasília/DF - 70095-901</span>
+                        </div>
+    
+                        <div class="phone">
+                            <span class="fas fas fa-phone-alt"></span>
+                            <span class="text">(61) 3030-7000</span>
+                        </div>
+    
+                        <div class="email">
+                            <span class="fas fa-envelope"></span>
+                            <span class="text">tse.contato@gov.com.br</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right box">
+                    <h2>Contato</h2>
+                    <div class="content">
+                        <form action="#">
+                            <div class="email">
+                                <div class="text">Email *</div>
+                                <input type="email" required>
+                            </div>
+                            <div class="msg">
+                                <div class="text">Mensagem *</div>
+                                <textarea rows="2" cols="25" required></textarea>
+                            </div>
+                            <div class="btn">
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
