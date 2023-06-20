@@ -12,12 +12,12 @@ var id = 0;
 const Questions = [
   {
     id: 0,
-    q: "1-  O que a CONDICIONAL SE retorna caso a condição seja falsa?",
+    q: "1-  O que determina que uma formula será usada no excel?",
     a: [
-      { text: "Retorna o primeiro parâmetro da verificação", isCorrect: false },
-      { text: "Retorna o último parâmetro da verificação", isCorrect: true },
-      { text: "Retorna o valor de ERRO", isCorrect: false },
-      { text: "Retorna o valor de VERDADE", isCorrect: false },
+      { text: "Que seja usada dentro de uma célula", isCorrect: false },
+      { text: "Que seja inserido o simbolo de igualdade antes da inserção da função", isCorrect: true },
+      { text: "Que seja primeiro inserido o nome da função e os valores que serão usados", isCorrect: false },
+      { text: "O excel detecta automaticamente quando uma função será usada", isCorrect: false },
     ],
   },
   {
