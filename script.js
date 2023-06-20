@@ -1,7 +1,7 @@
 var painelResultado = document.getElementById("resultado");
 painelResultado.style.display = "none";
 
-var quiz = document.getElementById("quiz");
+var quiz = document.getElementById("index");
 
 var acertos = 0;
 
