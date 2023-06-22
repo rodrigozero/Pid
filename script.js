@@ -42,11 +42,11 @@ const Questions = [
   },
   {
     id: 3,
-    q: "4- O que é necessario para execucar a função SOMA a partir da sentença a seguir: =SOMA(",
+    q: "4- O que é necessario para executar a função SOMA a partir da sentença a seguir: =SOMA(",
     a: [
       { text: "Fechar o parentese e clicar enter", isCorrect: false },
-      { text: "Selecionar os endereços, fechar o parentese e clicar enter", isCorrect: false },
-      { text: "Inserir o sinal: +", isCorrect: true },
+      { text: "Selecionar os endereços, fechar o parentese e clicar enter", isCorrect: true },
+      { text: "Inserir o sinal: +", isCorrect: false },
       { text: "Não fazer nada", isCorrect: false },
     ],
   },
